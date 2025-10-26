@@ -7,43 +7,54 @@
     <title>Footer</title>
   </head>
   <body>
-    <footer class="bg-[#659f8f] dark:bg-[#313131]">
-      <div class="container px-6 py-12 mx-auto">
-        <div class="flex">
-          <a href="#">
-            <img
-              class="w-auto h-7"
-              src="https://codespace-assets.global.ssl.fastly.net/wp/assets/website/codespace-primary-logo-light.svg"
-              alt="CodeSpace Logo"
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="newsletter">
+          <h2>Subscribe to our newsletter for updates.</h2>
+          <form class="newsletter-form">
+            <input
+              type="email"
+              placeholder="Email Address"
+              required
+              class="email-input"
             />
-          </a>
-          <div class="newsletter">
-            <h3>Subscribe to our newsletter for updates.</h3>
-            <form class="subscribe-form">
-              <input type="email" placeholder="Email Address" required />
-              <button type="submit">Subscribe</button>
-            </form>
-            <div class="footer-links">
-              <div class="link-column">
-                <h4>Quick Link</h4>
-                <ul>
-                  <li><a href="#">Home</a></li>
-                  <li><a href="#">Who We Are</a></li>
-                  <li><a href="#">Our Philosophy</a></li>
-                </ul>
-              </div>
-              <div class="link-column">
-                <h4>Technologies</h4>
-                <ul>
-                  <li><a href="#">HTML</a></li>
-                  <li><a href="#">CSS</a></li>
-                  <li><a href="#">JavaScript</a></li>
-                </ul>
-                <hr class="footer-divider" />
+            <button type="submit" class="subscribe-btn">Subscribe</button>
+          </form>
+        </div>
 
-                <div class="footer-bottom">
-                  <p class="logo-text">CODESP<span>A</span>CE</p>
-                </div>
+        <div class="footer-columns">
+          <div class="footer-col">
+            <h3>Quick Link</h3>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Who We Are</a></li>
+              <li><a href="#">Our Philosophy</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h3>Technologies</h3>
+            <ul>
+              <li><a href="#">HTML</a></li>
+              <li><a href="#">CSS</a></li>
+              <li><a href="#">JavaScript</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <hr class="divider" />
+
+        <div class="footer-logo">
+          <div class="bg-[#659f8f] dark:bg-[#313131]">
+            <div class="container px-6 py-12 mx-auto">
+              <div class="flex">
+                <a href="#">
+                  <img
+                    class="w-auto h-7"
+                    src="https://codespace-assets.global.ssl.fastly.net/wp/assets/website/codespace-primary-logo-light.svg"
+                    alt="CodeSpace Logo"
+                  />
+                </a>
               </div>
             </div>
           </div>
